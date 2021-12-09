@@ -14,7 +14,7 @@ numpy = "^1.5.1"
 type = "git"
 url = "https://github.com/vale981/binfootprint"
 reference = "master"
-resolved_reference = "3b8bff8aa0a351bb4dbe67b1e0c1263013173baf"
+resolved_reference = "14147ecfb0986550b79bad379dd5bbb624e69fd1"
 
 [[package]]
 name = "numpy"
@@ -37,7 +37,7 @@ develop = false
 type = "git"
 url = "https://github.com/vale981/progression"
 reference = "master"
-resolved_reference = "f853c0638234868364b51d4159abd38f1e303f60"
+resolved_reference = "34790bb5ca0b1b5e520fe10c902596815c3cb24a"
 
 [[package]]
 name = "scipy"
