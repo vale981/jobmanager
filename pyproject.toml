@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "jobmanager"
+version = "0.3.0"
+description = "Python job manager for parallel computing."
+authors = ["Richard Hartmann <richard.hartmann@tu-dresden.de>", "Paul Müller"]
+license = "BSD (3 clause)"
+classifiers = [
+  "Operating System :: OS Independent",
+  "Intended Audience :: Research",
+]
+repository = "https://github.com/cimatosa/jobmanager"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+sqlitedict = "^1.7.0"
+numpy = "^1.21.4"
+scipy = "^1.7.3"
+binfootprint = { git = "https://github.com/vale981/binfootprint" }
+progression = { git = "https://github.com/vale981/progression" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.core.masonry.api"
