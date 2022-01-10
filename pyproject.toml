@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jobmanager"
-version = "0.3.0"
+version = "0.3.1"
 description = "Python job manager for parallel computing."
 authors = ["Richard Hartmann <richard.hartmann@tu-dresden.de>", "Paul Müller"]
 license = "BSD (3 clause)"
